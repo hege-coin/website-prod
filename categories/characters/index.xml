@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Characters on HEGE Your Bets</title>
+		<link>https://hegecoin.com/categories/characters/</link>
+		<description>Recent content in Characters on HEGE Your Bets</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://hegecoin.com/categories/characters/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Hege</title>
+				<link>https://hegecoin.com/hegepedia/hege/</link>
+				<pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://hegecoin.com/hegepedia/hege/</guid>
+				<description>&lt;p&gt;Hege&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hegena</title>
+				<link>https://hegecoin.com/hegepedia/hegena/</link>
+				<pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://hegecoin.com/hegepedia/hegena/</guid>
+				<description>&lt;p&gt;Hegena&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hendrix</title>
+				<link>https://hegecoin.com/hegepedia/hendrix/</link>
+				<pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://hegecoin.com/hegepedia/hendrix/</guid>
+				<description>&lt;p&gt;Hendrix&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Helena</title>
+				<link>https://hegecoin.com/hegepedia/helena/</link>
+				<pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://hegecoin.com/hegepedia/helena/</guid>
+				<description>&lt;p&gt;Helena&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

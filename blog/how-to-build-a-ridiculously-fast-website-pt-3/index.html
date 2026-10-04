@@ -10,8 +10,9 @@
 <link rel="preload" href="/r/915512105.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="preload" href="/r/3997950749.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="preload" href="/r/636367663.woff2" as="font" type="font/woff2" crossorigin="">
-<link rel="stylesheet" href="/r/4017960170.min.css">
-<meta name="author" content="Hege">
+<link rel="stylesheet" href="/r/63362575.min.css">
+<link rel="stylesheet" href="/r/522264231.min.css">
+<meta name="author" content="HEGE">
 <meta name="description" content="With fonts down, we turn our performance hungry snouts to images, and sniff out how to use AVIF, MP4, lazy loading and more to reach the promised land of PageSpeed perfection.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://hegecoin.com/r/3139122017.jpg">
@@ -19,13 +20,13 @@
 <link rel="sitemap" type="application/xml" href="https://hegecoin.com/sitemap.xml">
 <link rel="icon" type="image/png" sizes="32x32" href="/r/2297846202.png">
 <link rel="apple-touch-icon" href="/r/3923634518.png">
-<script type="text/javascript" src="/r/70001869.min.js" async fetchpriority="low"></script>
+<script type="text/javascript" src="/r/3941572627.min.js" async fetchpriority="low"></script>
 </head>
 <body id="b" class="">
 <header id="h">
 <nav class="full"><a href="/" class="logo"><img width="822" height="205" src="/r/2607289839.svg" alt="HEGE" fetchpriority="high"></a>
 <ul>
-<li><a href="/about/" title="Read all about Hege">About</a></li>
+<li><a href="/story/" title="Discover the Greatest Underhog Story Ever Told">Story</a></li>
 <li><a href="https://shop.hegecoin.com" title="Shop in the Hege Merch Store" target="_blank">Merch</a></li>
 <li><a href="/nfts/" title="Visit Hege's official NFT collection">NFTs</a></li>
 <li><a href="/blog/" title="Read the latest about Hege">Blog</a></li>
@@ -81,7 +82,7 @@
 <li><strong><a href="/blog/how-to-build-a-ridiculously-fast-website-pt-6/">Part 6: Final Results</a></strong></li>
 </ul>
 <p>With that said, now, images!</p>
-<figure class="image"><a href="/r/2863930657.webp"><img src="/r/2863930657.webp" width="2048" height="2048" alt="Hege behind the wheels of a purble cabbed sportscar, Helena and Hendrix standing up in the back seat." loading="lazy"></a></figure>
+<figure class="image"><a href="/r/1515209507.avif" class="pop"><span class="icon-overlay"><img src="/r/1515209507.avif" width="2048" height="2048" alt="Hege behind the wheels of a purble cabbed sportscar, Helena and Hendrix standing up in the back seat." loading="lazy"> <span class="image-icon"></span></span></a></figure>
 <h2 id="optimizing-images-is-a-must">Optimizing Images is a Must</h2>
 <p>Just like choosing optimal formats and using various forms of compression makes a huge difference when it comes to fonts, so too it does for images.</p>
 <p>Our website is quite heavy on graphics. The start page on mobile (which is what we focus on in these articles) has many images and animations. On our old site, they came in at around 5.5 megabytes altogether. That wasn’t terrible at all, but it clearly wasn’t going to cut it for that perfect score we were gunning for.</p>
@@ -109,7 +110,7 @@
 <li>AVIF: 26 kB</li>
 </ul>
 <p>Yes. AVIF is really that good. Use it.</p>
-<figure class="image"><a href="/r/746890662.webp"><img src="/r/746890662.webp" width="1280" height="1280" alt="Profile picture of Helena, a purple anthropomorphic hedgehog, dressed in a green cardigan, sporting a distintively Karen blond hairdo and large golden earrings." loading="lazy"></a>
+<figure class="image"><a href="/r/3574599916.avif" class="pop"><span class="icon-overlay"><img src="/r/3574599916.avif" width="1280" height="1280" alt="Profile picture of Helena, a purple anthropomorphic hedgehog, dressed in a green cardigan, sporting a distintively Karen blond hairdo and large golden earrings." loading="lazy"> <span class="image-icon"></span></span></a>
 <figcaption>Use AVIF. Helena approves.</figcaption>
 </figure>
 <p>And if you want to try playing around with the quality settings to produce even smaller files, use the <code>-quality</code> parameter:</p>
@@ -146,10 +147,10 @@
 <p>If you don’t specify dimensions on your images, the browser has no way of knowing how much space to allocate for them as it starts rendering the page. The browser can’t guess, so every image that it doesn’t know the size of, it has to assume is 0 pixels tall as it starts rendering. As each image then is inserted into the page after being downloaded, the layout of the page has to be adjusted to fit the real size of the image. Each time this happens, it causes other elements to jump around on the page.</p>
 <p>Each of these jumps is called a <em>layout shift</em>, and the CLS is the <em>cumulative</em>, or total, of all of them.</p>
 <p>So make sure to set the width and height of all images in the HTML. This will lower your CLS to zero or near zero, which is what you need for that perfect score, but more importantly also for a perfect user experience.</p>
-<figure class="image"><a href="/r/2823155366.webp"><img src="/r/2823155366.webp" width="945" height="189" alt="Cumulative Layout Shift score: 0.327" loading="lazy"></a>
+<figure class="image"><a href="/r/3993346633.avif" class="pop"><span class="icon-overlay"><img src="/r/3993346633.avif" width="945" height="189" alt="Cumulative Layout Shift score: 0.327" loading="lazy"> <span class="image-icon"></span></span></a>
 <figcaption>CLS before optimization. Not good.</figcaption>
 </figure>
-<figure class="image"><a href="/r/4232129986.webp"><img src="/r/4232129986.webp" width="945" height="189" alt="Cumulative Layout Shift score: 0" loading="lazy"></a>
+<figure class="image"><a href="/r/1093501853.avif" class="pop"><span class="icon-overlay"><img src="/r/1093501853.avif" width="945" height="189" alt="Cumulative Layout Shift score: 0" loading="lazy"> <span class="image-icon"></span></span></a>
 <figcaption>CLS after optimization. Perfect.</figcaption>
 </figure>
 <h2 id="level-2">Level 2: Lazy Load Images</h2>
@@ -254,7 +255,7 @@
 <p>Using <code>sizes</code> and <code>srcset</code> lets you define multiple image sources (files). In the <code>srcset</code>, you put all the image sources. In this example, we have two images, one 600 pixels wide, and one 1000 pixels wide. In the <code>sizes</code>, you put a media query that the browser will use to determine what source to pick. In this case, we say that if the browser is wider than 500 pixels, pick the source that has a width of 82% of the window. Otherwise pick one that’s max 500 pixels wide.</p>
 <p>This can be a little tricky to get right, and we don’t have space here to go through all the details. See for example <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images">this article</a> for more on the topic. Also be aware that pixel density plays a role in what source the browser picks. So if you have a mobile phone with a high DPI screen, it might pick sources larger than you would expect.</p>
 <p>Getting this right is definitely worth the effort though. The full sized image in the example is 56 kB for the desktop version, but the reduced size for mobile is just 27 kB. Saving 29 kB might not seem that much, but on a slow mobile connection that’s around 140 milliseconds saved. Multiply that by a couple of images, and it adds up.</p>
-<figure class="image"><a href="/r/1031749544.webp"><img src="/r/1031749544.webp" width="1700" height="1114" alt="Hege offering Hegena a bouquet of flowers" loading="lazy"></a>
+<figure class="image"><a href="/r/21224622.avif" class="pop"><span class="icon-overlay"><img src="/r/21224622.avif" width="1700" height="1114" alt="Hege offering Hegena a bouquet of flowers" loading="lazy"> <span class="image-icon"></span></span></a>
 <figcaption>Desktop vs. mobile version of the same image: 56 kB vs 27 kB.</figcaption>
 </figure>
 <h3 id="set-fetch-priorities-to-optimize-loading-order">Set Fetch Priorities to Optimize Loading Order</h3>
@@ -344,7 +345,7 @@
 <p>Yours truly,<br>
 <em>— Team Hege</em> ✌️</p>
 <p>PS. Check out the piece “EARTHSHAPER” below. This LEGENDARY collectible is <a href="https://drip.haus/hegecoin/collectible/hegecoin-drip-hege-earthshaper-83e3858a">up for sale on DRiP!</a></p>
-<figure class="image"><a href="/r/1059640472.webp"><img src="/r/1059640472.webp" width="1200" height="1200" alt="Cartoon Hege clad in armor made of steel and heavy brown fabric, spinning a rock in a force field between his hands, against a backdrop of high mountains." loading="lazy"></a>
+<figure class="image"><a href="/r/3722204716.avif" class="pop"><span class="icon-overlay"><img src="/r/3722204716.avif" width="1200" height="1200" alt="Cartoon Hege clad in armor made of steel and heavy brown fabric, spinning a rock in a force field between his hands, against a backdrop of high mountains." loading="lazy"> <span class="image-icon"></span></span></a>
 <figcaption>HEGE: EARTHSHAPER</figcaption>
 </figure>
 </div>
@@ -374,8 +375,8 @@
 <div class="h-a" data-frames="/r/3446319882.avif;/r/168622860.avif;/r/785041076.avif;/r/1978746780.avif;/r/3685339383.avif"><img class="show" src="/r/1959589881.avif" width="750" height="750" loading="lazy" alt="Hegend 1"></div>
 <span><strong>Hegends NFTs</strong> <em>Check out our NFT collection!</em></span></a>
 <ul>
+<li><a href="/story/"><img src="/r/3587084489.svg" width="300" height="237" alt="Hege" fetchpriority="low" loading="lazy"> <span><strong>The Hege Story</strong> <em>The Greatest Underhog Story Ever Told</em></span></a></li>
 <li><a href="/blog/"><img src="/r/2385211595.svg" width="375" height="456" alt="Newspaper article icon" fetchpriority="low" loading="lazy"> <span><strong>Blog</strong> <em>Read the latest about $HEGE</em></span></a></li>
-<li><a href="/about/"><img src="/r/3587084489.svg" width="300" height="237" alt="Hege" fetchpriority="low" loading="lazy"> <span><strong>About</strong> <em>Learn all about $HEGE</em></span></a></li>
 <li><a href="/league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="Globe icon" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
 <li><a href="/testimonials/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Media</strong> <em>What's being said about $HEGE</em></span></a></li>
 <li><a href="/#faq" onclick="document.getElementById('nav-c').close()"><img src="/r/333550920.svg" width="30" height="30" alt="?" fetchpriority="low" loading="lazy"> <span><strong>FAQs</strong> <em>Answers to common questions</em></span></a></li>
