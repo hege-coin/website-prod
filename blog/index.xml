@@ -5,9 +5,16 @@
     <link>https://hegecoin.com/blog/</link>
     <description>Read the latest about $HEGE here!</description>
     <generator>Hege</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 04 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hegecoin.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The New Hege Story</title>
+      <link>https://hegecoin.com/blog/the-new-hege-story/</link>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://hegecoin.com/blog/the-new-hege-story/</guid>
+      <description>An introduction to how we&amp;rsquo;re thinking about the new Hege Story.&#xA;</description>
+    </item>
     <item>
       <title>Announcing the New Hege Story</title>
       <link>https://hegecoin.com/blog/announcing-the-new-hege-story/</link>
