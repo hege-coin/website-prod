@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Gallery Technical Documentation | HEGE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://hegecoin.com/hegepedia/gallery-documentation/">
+<link rel="preload" href="/r/2812802085.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/r/600843795.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/r/915512105.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/r/3997950749.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="/r/636367663.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="stylesheet" href="/r/1624537194.min.css">
+<link rel="stylesheet" href="/r/383491445.min.css">
+<meta name="author" content="HEGE">
+<meta name="description" content="This entry explains how the Hegepedia Gallery works.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://hegecoin.com/img/opengraph_hu_9825ad3a778e36c4.01e6df8a296173f52e1aba3747c0e4bf404b621edc7e55eaaeb5116f387ea6bd.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<link rel="alternate" type="application/atom+xml" href="https://hegecoin.com/blog/index.xml" title="Hegecoin">
+<link rel="sitemap" type="application/xml" href="https://hegecoin.com/sitemap.xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/r/2297846202.png">
+<link rel="apple-touch-icon" href="/r/3923634518.png">
+<script type="text/javascript" src="/r/545971730.min.js" async fetchpriority="low"></script>
+</head>
+<body id="b" class="hp">
+<header id="h">
+<nav class="full"><a href="/" class="logo"><img width="822" height="205" src="/r/2607289839.svg" alt="HEGE" fetchpriority="high"></a>
+<ul>
+<li><a href="/story/" title="Discover the Greatest Underhog Story Ever Told">Story</a></li>
+<li><a href="https://shop.hegecoin.com" title="Shop in the Hege Merch Store" target="_blank">Merch</a></li>
+<li><a href="/nfts/" title="Visit Hege's official NFT collection">NFTs</a></li>
+<li><a href="/blog/" title="Read the latest about Hege">Blog</a></li>
+<li><span onclick="document.getElementById('nav-more').classList.toggle('open'); rha()">More <svg width="14" height="7" viewbox="0 0 14 7" fill="none">
+<path d="M13 1L7 5L1 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg></span>
+<div id="nav-more">
+<ul id="nav-items">
+<li class="hegends-item"><a href="/nfts/" title="Visit Hege's official NFT collection">
+<div class="h-a" data-frames="/r/3446319882.avif;/r/168622860.avif;/r/785041076.avif;/r/1978746780.avif;/r/3685339383.avif"><img class="show" src="/r/1959589881.avif" width="750" height="750" loading="lazy" alt="Hegend 1"></div>
+<span><strong>Hegends NFTs</strong> <em>Learn more about our NFT collection!</em></span></a></li>
+<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>The ultimate guide to the Hegeverse</em></span></a></li>
+<li><a href="https://t.me/Hegequarters" target="_blank" class="ext"><img src="/r/2111933442.svg" width="512" height="431" alt="Telegram logo" fetchpriority="low" loading="lazy"> <span><strong>Telegram</strong> <em>Join the fun in our Hegequarters</em></span></a></li>
+<li><a href="/league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="A globe" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
+<li><a href="https://dexscreener.com/solana/cjcu7cirhbhu4bdnplgaum1a6isp9ruhjmg36rjjrxnd" target="_blank" class="ext"><img src="/r/610068670.svg" width="300" height="272" alt="A bar chart icon" fetchpriority="low" loading="lazy"> <span><strong>Price Chart</strong> <em>Track the $HEGE price by the second</em></span></a></li>
+<li><a href="/#faq" onclick="document.getElementById('nav-more').classList.remove('open')"><img src="/r/333550920.svg" width="30" height="30" alt="?" fetchpriority="low" loading="lazy"> <span><strong>FAQs</strong> <em>Answers to frequently asked questions</em></span></a></li>
+<li><a href="https://www.reddit.com/r/HegeCoin/" target="_blank" class="ext"><img src="/r/1609170980.svg" width="30" height="30" alt="Reddit logo" fetchpriority="low" loading="lazy"> <span><strong>Reddit</strong> <em>Join over 1,200 Hegends on Reddit!</em></span></a></li>
+<li><a href="https://drip.haus/hegecoin" target="_blank" class="ext"><img src="/r/407803855.svg" width="30" height="30" alt="A drop" fetchpriority="low" loading="lazy"> <span><strong>DRiP</strong> <em>Check out $HEGE on art platform DRiP</em></span></a></li>
+<li><a href="https://capitoday.com/meme/hege-coin" target="_blank" class="ext"><img src="/r/298893401.svg" width="30" height="30" alt="Capitoday logo" fetchpriority="low" loading="lazy"> <span><strong>Capitoday</strong> <em>Track and vote for $HEGE on Capitoday</em></span></a></li>
+</ul>
+</div>
+</li>
+<li><a href="/#buy" class="yellow btn">Buy $HEGE</a></li>
+</ul>
+<p><button aria-label="Toggle mobile menu" onclick="document.getElementById('nav-c').showModal(); rha()"><img src="/r/2068178453.svg" width="20" height="20" alt="Open menu"></button></p>
+</nav>
+</header>
+<main id="main">
+<section class="h">
+<div class="c">
+<div class="hamburger-narrow"><button aria-label="Toggle wide Hegepedia menu" class="hamburger-icon button with-icon" onclick="hege.hp.showNarrowNav();"></button></div>
+<div class="hamburger-wide"><button aria-label="Toggle narrow Hegepedia menu" class="hamburger-icon button with-icon" onclick="hege.hp.showWideNav();"></button></div>
+<ul class="crumbs">
+<li><a class="title" href="/hegepedia/">Hegepedia (beta)</a></li>
+<li><a href="/hegepedia/misc/">Misc</a></li>
+<li><a href="/hegepedia/meta/">Meta</a></li>
+<li>Gallery Technical Documentation</li>
+</ul>
+</div>
+</section>
+<dialog id="hp-nav-narrow" class="dialog hp-nav-narrow" closedby="any">
+<section><button aria-label="Close" class="button close with-icon" onclick="hege.hp.hideNarrowNav();"></button> <a href="/hegepedia/" class="title">Hegepedia (beta)</a>
+<div class="menu">
+<details>
+<summary><span>Story</span><span class="icon"></span></summary>
+<ul>
+<li><a href="/hegepedia/the-hege-story/">Overview</a></li>
+<li><a href="/hegepedia/chapters/">Chapters</a></li>
+<li><a href="/hegepedia/characters/">Characters</a></li>
+<li><a href="/hegepedia/locations/">Locations</a></li>
+<li><a href="/hegepedia/items/">Items</a></li>
+<li><a href="/hegepedia/metanarrative/">Metanarrative</a></li>
+</ul>
+</details>
+<details>
+<summary><span>Community</span><span class="icon"></span></summary>
+<ul>
+<li><a href="/hegepedia/community/">Overview</a></li>
+<li><a href="/hegepedia/marketing/">Marketing</a></li>
+</ul>
+</details>
+<details>
+<summary><span>Gallery</span> <span class="icon"></span></summary>
+<ul>
+<li><a href="/hegepedia/gallery/">Overview</a></li>
+<li><a href="/hegepedia/gallery/tags/">Tags</a></li>
+</ul>
+</details>
+<details>
+<summary><span>Misc</span><span class="icon"></span></summary>
+<ul>
+<li><a href="/hegepedia/misc/">Overview</a></li>
+<li><a href="/hegepedia/hegepedia/">About Hegepedia</a></li>
+<li><a href="/hegepedia/all-pages/">All Pages</a></li>
+<li><a href="/hegepedia/meta/">Meta</a></li>
+</ul>
+</details>
+</div>
+</section>
+</dialog>
+<dialog id="hp-nav-wide" class="dialog hp-nav-wide" closedby="any">
+<section>
+<div class="c"><button aria-label="Close" class="button close with-icon" onclick="hege.hp.hideWideNav();"></button> <a href="/hegepedia/" class="title">Hegepedia (beta)</a>
+<ul class="menu">
+<li><a href="/hegepedia/the-hege-story/"><span>Story</span></a>
+<ul>
+<li><a href="/hegepedia/chapters/">Chapters</a></li>
+<li><a href="/hegepedia/characters/">Characters</a></li>
+<li><a href="/hegepedia/locations/">Locations</a></li>
+<li><a href="/hegepedia/items/">Items</a></li>
+<li><a href="/hegepedia/metanarrative/">Metanarrative</a></li>
+</ul>
+</li>
+<li><a href="/hegepedia/community/"><span>Community</span></a>
+<ul>
+<li><a href="/hegepedia/marketing/">Marketing</a></li>
+</ul>
+</li>
+<li><a href="/hegepedia/gallery/"><span>Gallery</span></a>
+<ul>
+<li><a href="/hegepedia/gallery/">Start page</a></li>
+<li><a href="/hegepedia/gallery/tags/">Tags</a></li>
+</ul>
+</li>
+<li><a href="/hegepedia/misc/"><span>Misc</span></a>
+<ul>
+<li><a href="/hegepedia/hegepedia/">About Hegepedia</a></li>
+<li><a href="/hegepedia/all-pages/">All Pages</a></li>
+<li><a href="/hegepedia/meta/">Meta</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</dialog>
+<template id="mview-template">
+<dialog class="mview" closedby="any">
+<div class="c">
+<div class="images"></div>
+<div class="counter"></div>
+<button aria-label="Close" class="close button with-icon"></button> <button aria-label="Previous" class="prev button with-icon"></button> <button aria-label="Next" class="next button with-icon"></button> <button aria-label="View details" class="details button">View details <span class="k">d</span></button></div>
+</dialog>
+</template>
+<article class="entry">
+<div>
+<h1>Gallery Technical Documentation</h1>
+<p>This entry explains how the Hegepedia Gallery works.</p>
+<h2 id="terminology">Terminology</h2>
+<p>See <a class="elink" href="/hegepedia/hegepedia-documentation/">Hegepedia Technical Documentation</a> for a full terminology.</p>
+<h2 id="directory-structure">Directory Structure</h2>
+<p>Gallery items are technically regular Hugo pages.</p>
+<p>They are stored each in their own directory, under the <code>content/media/</code> directory. This is further subdivided by year, to avoid having too many subdirectories.</p>
+<p>Here is the structure:</p>
+<div class="highlight">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>content/
+</span></span><span style="display:flex;"><span>  media/
+</span></span><span style="display:flex;"><span>    YYYY/
+</span></span><span style="display:flex;"><span>      {slug}/
+</span></span><span style="display:flex;"><span>        index.md
+</span></span><span style="display:flex;"><span>        original.png|jpg|avif|webp|gif|svg|mp4
+</span></span><span style="display:flex;"><span>        thumbnail.png
+</span></span><span style="display:flex;"><span>        opengraph.png
+</span></span></code></pre></div>
+<p>When the site is built, this directory is mapped to <code>/hegepedia/gallery/</code>, so that gallery entry pages show up in the right place in the final URL structure.</p>
+<h3 id="files-and-directories">Files and Directories</h3>
+<dl>
+<dt>YYYY</dt>
+<dd>The name of this directory is the year that the gallery item was added, like <code>2026</code>.</dd>
+<dt>{slug}</dt>
+<dd>This is a short unique identifier. Together with the year this forms the gallery item ID: <code>YYYY/{slug}</code>. So for example if the year directory is <code>2026</code> and the slug is <code>hege</code>, the ID becomes <code>2026/hege</code>.</dd>
+<dt>index.md (required)</dt>
+<dd>This file holds the metadata for the gallery item.</dd>
+<dt>original.png|jpg|avif|webp|gif|svg|mp4 (required)</dt>
+<dd>This is the original file, in any of the supported formats. There must be <em>one and only one</em> original file.</dd>
+<dt>thumbnail.png (required if video, else optional)</dt>
+<dd>A thumbnail for the gallery item. If this file does not exist, a downsized version of the original will be used. If the original is a video however, this cannot be done automatically, so in this case the thumbnail file must be present.</dd>
+<dt>opengraph.png (optional)</dt>
+<dd>The image to use when sharing the gallery item on social media. If it is not present, it will be automatically generated by downscaling and cropping the original.</dd>
+</dl>
+<h2 id="the-metadata-file-indexmd">The Metadata File: <code>index.md</code></h2>
+<p>As an example, here is the <code>index.md</code> file for the <a class="glink" href="/hegepedia/gallery/2026/the-typewriter/">The Typewriter</a> gallery item:</p>
+<div class="highlight">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>+++
+</span></span><span style="display:flex;"><span>draft = false
+</span></span><span style="display:flex;"><span>title = 'The Typewriter'
+</span></span><span style="display:flex;"><span>date = "2026-10-05"
+</span></span><span style="display:flex;"><span>gtags = ['metanarrative', 'image', 'instrument-of-power',]
+</span></span><span style="display:flex;"><span>[params]
+</span></span><span style="display:flex;"><span>    caption = 'The Typewriter'
+</span></span><span style="display:flex;"><span>    alt = 'A light blue Facit Privat'
+</span></span><span style="display:flex;"><span>    artist_name = '&lt;unknown&gt;'
+</span></span><span style="display:flex;"><span>    artist_url = ''
+</span></span><span style="display:flex;"><span>    pub_date = '2026-09-21'
+</span></span><span style="display:flex;"><span>    pub_url = 'https://x.com/HegeCoin/status/2102046684641468607'
+</span></span><span style="display:flex;"><span>+++
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>The Typewriter is an Instrument of Power in the Hege metanarrative.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;!--more--&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>The Typewriter is an Instrument of Power in the Hege metanarrative.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>See {{&lt; hp/elink "the-typewriter" &gt;}} for more details.
+</span></span></code></pre></div>
+<h3 id="file-structure">File Structure</h3>
+<p>The <code>index.md</code> file is split in two parts, the <em>header</em> and the <em>content</em>.</p>
+<p>The header comes first, delimited by <code>+++</code> above and below it. The inside of the header consists of simple key-value pairs, in TOML format.</p>
+<p>Below the header, separated by one blank line, then comes the content of the file. This part is interpreted as Markdown, by the CommonMark specification.</p>
+<p>The text above the <code>&lt;!--more--&gt;</code> marker will be used as a description for search engines and when sharing on social media. The text below the marker will be shown on the gallery page, right below the image.</p>
+<h3 id="header-fields">Header Fields</h3>
+<p>Here is a list of all the fields in the header, and what they do.</p>
+<dl>
+<dt>draft (required)</dt>
+<dd>A Hugo parameter. When this is set to <code>true</code>, this item will not be published when building the site. And conversely, when set to <code>true</code>, the item will be published.</dd>
+<dt>title (required)</dt>
+<dd>The title of the image. This will be shown in the title bar of the web browser, on the gallery entry page, and as a title when sharing the item on social media.</dd>
+<dt>date (required)</dt>
+<dd>The date the item was added into the Gallery.</dd>
+<dt>gtags (optional)</dt>
+<dd>A list of zero or more tags for the item.</dd>
+<dt>[params] line (required)</dt>
+<dd>This line starts the Hugo custom params section, and must be present.</dd>
+<dt>caption (required)</dt>
+<dd>The caption of the item. This will be shown when including this item in other entries.</dd>
+<dt>alt (required)</dt>
+<dd>A text describing the image. This will be used for <code>alt</code> attributes in HTML code.</dd>
+<dt>artist_name (optional)</dt>
+<dd>The name of the artist that created this item.</dd>
+<dt>artist_url (optional)</dt>
+<dd>An URL to the artists’ website or X account or similar.</dd>
+<dt>pub_date (optional)</dt>
+<dd>The date this artwork was first published.</dd>
+<dt>pub_url (optional)</dt>
+<dd>The URL at which this artwork was first published.</dd>
+</dl>
+<h2 id="the-gallery-item-file-originalxxx">The Gallery Item File: <code>original.xxx</code></h2>
+<p>The <code>original.xxx</code> file is the file that contains the actual item (image or video).</p>
+<p>The Gallery supports the following file formats, determined by the extension of the <code>original.xxx</code> file.</p>
+<ul>
+<li>PNG: <code>.png</code></li>
+<li>JPEG: <code>.jpg</code></li>
+<li>Avif: <code>.avif</code></li>
+<li>Webp: <code>.webp</code></li>
+<li>Gif: <code>.gif</code></li>
+<li>SVG: <code>.svg</code></li>
+<li>MP4: <code>.mp4</code></li>
+</ul>
+<p>Note that MP4 is the only supported video format.</p>
+<p>There can only be <em>one</em> <code>original.xxx</code> file. So if you have an <code>original.png</code> file, that must be the only file, you cannot also have a <code>gallery.jpg</code>, and so on.</p>
+<p>Selection of the original file is done by the <code>g/get-original.html</code> partial.</p>
+<h2 id="the-thumbnail-file-thumbnailpng">The Thumbnail File: <code>thumbnail.png</code></h2>
+<p>The <code>thumbnail.png</code> file is used as a thumbnail for the gallery item.</p>
+<p>If this file is present, it must be in PNG format. If this file is not present, the <code>original.xxx</code> file will be used instead.</p>
+<p>Special case: video items <em>must</em> have this file present, as thumbnails cannot automatically be generated from video files. For videos, this file will also be used as the poster attribute on video HTML elements.</p>
+<p>Selection of the thumbnail file is done by the <code>g/get-thumb.html</code> partial.</p>
+<h2 id="the-opengraph-file-opengraphpng">The OpenGraph File: <code>opengraph.png</code></h2>
+<p>The <code>opengraph.png</code> file is used as the OpenGraph image when sharing the item to social media.</p>
+<p>If this file is present, it must be in PNG format. If this file is not present, the <code>original.xxx</code> file will be used instead, by fitting it within 1800x945 pixels, and then cropping it to 1200x630 pixels, anchoring to the middle of the image.</p>
+<p>Selection of the OpenGraph file is done by the <code>g/get-og.html</code> partial.</p>
+<h2 id="shortcodes">Shortcodes</h2>
+<p>There are several shortcodes that can be used to include gallery items in Hegepedia entries.</p>
+<p>See <a class="elink" href="/hegepedia/example-entry/">Example Hegepedia Entry</a> for examples of them.</p>
+<h2 id="opengraph-images">OpenGraph Images</h2>
+<p>Gallery items can be used as OpenGraph images for pages across the entire Hegecoin website (including the Hegepedia).</p>
+<p>Set the <code>og_id</code> parameter on any page to set the gallery item to use as an OpenGraph image for that page.</p>
+<p>Below are two examples.</p>
+<p>This is the open OpenGraph image generated for the gallery item with ID <code>2026/hege</code>:</p>
+<img src="/hegepedia/gallery/2026/hege/original_hu_bfca5d89a2f8164.7ebd22a6bc40b9b4fab7ff327c7918c191e1dcffc01c6bfc480a9b2613b41844.jpg">
+<p>And here is the OpenGraph image generated for the gallery item with ID <code>2026/the-typewriter-typing</code> (this is a video, so the video’s <code>thumbnail.png</code> file is used to generate the image):</p>
+<img src="/hegepedia/gallery/2026/the-typewriter-typing/thumbnail_hu_676cf31358c3ba82.048084f5c2a44df70efe8b922bde33abd816b0cb8ddf43b09f4a1fdcb86117f4.jpg">
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><a class="elink" href="/hegepedia/meta/">Hegepedia Meta</a></li>
+<li><a class="elink" href="/hegepedia/example-entry/">Example Hegepedia Entry</a></li>
+</ul>
+</div>
+<div class="f">
+<p>This page was 100% written by human with ❤️.</p>
+</div>
+</article>
+</main>
+<footer><a href="/"><img width="132" height="33" src="/r/2607289839.svg" alt="HEGE" loading="lazy"></a>
+<ul class="btn-list">
+<li><a href="https://t.me/Hegequarters" target="_blank"><img width="512" height="431" alt="Telegram logo" src="/r/2111933442.svg" loading="lazy"></a></li>
+<li><a href="https://twitter.com/HegeCoin" target="_blank"><img width="50" height="45" alt="X logo" src="/r/2938068187.svg" loading="lazy"></a></li>
+<li><a href="https://dexscreener.com/solana/cjcu7cirhbhu4bdnplgaum1a6isp9ruhjmg36rjjrxnd" target="_blank"><img width="252" height="300" alt="DEX Screener logo" src="/r/3205571068.svg" loading="lazy"></a></li>
+</ul>
+<p>Disclaimer: $HEGE is a memecoin with no intrinsic value. Don't risk money you are afraid of losing. The price may go up or it may go down. We are not responsible for the price of the token.</p>
+<p>Copyright Hegecoin 2026</p>
+<p>Handcrafted with ❤️</p>
+</footer>
+<dialog closedby="any" id="nav-c">
+<div><a href="/" class="logo"><img width="822" height="205" src="/r/2607289839.svg" alt="HEGE"></a>
+<div><button onclick="document.getElementById('nav-c').close()"><img src="/r/82561575.svg" width="20" height="20" alt="X"></button></div>
+</div>
+<section><a href="/nfts/" title="Learn more about our NFT collection!">
+<div class="h-a" data-frames="/r/3446319882.avif;/r/168622860.avif;/r/785041076.avif;/r/1978746780.avif;/r/3685339383.avif"><img class="show" src="/r/1959589881.avif" width="750" height="750" loading="lazy" alt="Hegend 1"></div>
+<span><strong>Hegends NFTs</strong> <em>Check out our NFT collection!</em></span></a>
+<ul>
+<li><a href="/story/"><img src="/r/3587084489.svg" width="300" height="237" alt="Hege" fetchpriority="low" loading="lazy"> <span><strong>The Hege Story</strong> <em>The Greatest Underhog Story Ever Told</em></span></a></li>
+<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>The ultimate guide to the Hegeverse</em></span></a></li>
+<li><a href="/blog/"><img src="/r/2385211595.svg" width="375" height="456" alt="Newspaper article icon" fetchpriority="low" loading="lazy"> <span><strong>Blog</strong> <em>Read the latest about $HEGE</em></span></a></li>
+<li><a href="/league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="Globe icon" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
+<li><a href="/#faq" onclick="document.getElementById('nav-c').close()"><img src="/r/333550920.svg" width="30" height="30" alt="?" fetchpriority="low" loading="lazy"> <span><strong>FAQs</strong> <em>Answers to common questions</em></span></a></li>
+<li><a href="https://dexscreener.com/solana/cjcu7cirhbhu4bdnplgaum1a6isp9ruhjmg36rjjrxnd" target="_blank" class="ext"><img src="/r/610068670.svg" width="300" height="272" alt="Bar chart icon" fetchpriority="low" loading="lazy"> <span><strong>Price Chart</strong> <em>Track the $HEGE price by the second</em></span></a></li>
+<li><a href="https://drip.haus/hegecoin" target="_blank" class="ext"><img src="/r/407803855.svg" width="30" height="30" alt="Drop" fetchpriority="low" loading="lazy"> <span><strong>DRiP</strong> <em>Check out $HEGE on art platform DRiP</em></span></a></li>
+<li><a href="https://www.reddit.com/r/HegeCoin/" target="_blank" class="ext"><img src="/r/1609170980.svg" width="30" height="30" alt="Reddit logo" fetchpriority="low" loading="lazy"> <span><strong>Reddit</strong> <em>Join over 1,200 Hegends on Reddit!</em></span></a></li>
+<li><a href="https://capitoday.com/meme/hege-coin" target="_blank" class="ext"><img src="/r/298893401.svg" width="30" height="30" alt="Capitoday logo" fetchpriority="low" loading="lazy"> <span><strong>Capitoday</strong> <em>Track and vote for $HEGE on Capitoday</em></span></a></li>
+</ul>
+</section>
+</dialog>
+<template id="geoblock-msg-template">
+<div class="heavy plain box">
+<h1>Sorry!</h1>
+<p>Based on your location, you are not allowed to access the Hege website.</p>
+<p>Because of legal uncertainties, we are forced to block visitors from the following countries:</p>
+<ul>
+<li>United Kingdom</li>
+</ul>
+</div>
+</template>
+</body>
+</html>

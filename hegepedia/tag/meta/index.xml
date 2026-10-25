@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Meta on HEGE Your Bets</title>
+		<link>https://hegecoin.com/hegepedia/tag/meta/</link>
+		<description>Recent content in Meta on HEGE Your Bets</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 17 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://hegecoin.com/hegepedia/tag/meta/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Hegepedia Style Guide</title>
+				<link>https://hegecoin.com/hegepedia/hegepedia-style-guide/</link>
+				<pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://hegecoin.com/hegepedia/hegepedia-style-guide/</guid>
+				<description>&lt;p&gt;Hegepedia: Style Guide&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Gallery Technical Documentation</title>
+				<link>https://hegecoin.com/hegepedia/gallery-documentation/</link>
+				<pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://hegecoin.com/hegepedia/gallery-documentation/</guid>
+				<description>&lt;p&gt;This entry explains how the Hegepedia Gallery works.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hegepedia Technical Documentation</title>
+				<link>https://hegecoin.com/hegepedia/hegepedia-documentation/</link>
+				<pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://hegecoin.com/hegepedia/hegepedia-documentation/</guid>
+				<description>&lt;p&gt;Technical documentation for the Hegepedia.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Example Hegepedia Entry</title>
+				<link>https://hegecoin.com/hegepedia/example-entry/</link>
+				<pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://hegecoin.com/hegepedia/example-entry/</guid>
+				<description>&lt;p&gt;Example Hegepedia entry.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
