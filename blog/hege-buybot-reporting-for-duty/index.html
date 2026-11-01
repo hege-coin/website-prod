@@ -11,7 +11,7 @@
 <link rel="preload" href="/r/3997950749.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="preload" href="/r/636367663.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="stylesheet" href="/r/1624537194.min.css">
-<link rel="stylesheet" href="/r/3231558896.min.css">
+<link rel="stylesheet" href="/r/755559086.min.css">
 <meta name="author" content="HEGE">
 <meta name="description" content="HEGE BuyBot is back in Hegequarters. After a few weeks of downtime for maintenance, moving from Solscan to Helius, our signature custom buy messages and easter eggs are now back on the menu!">
 <meta property="og:type" content="website">
@@ -22,7 +22,7 @@
 <link rel="sitemap" type="application/xml" href="https://hegecoin.com/sitemap.xml">
 <link rel="icon" type="image/png" sizes="32x32" href="/r/2297846202.png">
 <link rel="apple-touch-icon" href="/r/3923634518.png">
-<script type="text/javascript" src="/r/545971730.min.js" async fetchpriority="low"></script>
+<script type="text/javascript" src="/r/2234077113.min.js" async fetchpriority="low"></script>
 </head>
 <body id="b" class="">
 <header id="h">
@@ -39,9 +39,9 @@
 <li class="hegends-item"><a href="/nfts/" title="Visit Hege's official NFT collection">
 <div class="h-a" data-frames="/r/3446319882.avif;/r/168622860.avif;/r/785041076.avif;/r/1978746780.avif;/r/3685339383.avif"><img class="show" src="/r/1959589881.avif" width="750" height="750" loading="lazy" alt="Hegend 1"></div>
 <span><strong>Hegends NFTs</strong> <em>Learn more about our NFT collection!</em></span></a></li>
-<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>The ultimate guide to the Hegeverse</em></span></a></li>
+<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>Your ultimate guide to the Hegeverse</em></span></a></li>
 <li><a href="https://t.me/Hegequarters" target="_blank" class="ext"><img src="/r/2111933442.svg" width="512" height="431" alt="Telegram logo" fetchpriority="low" loading="lazy"> <span><strong>Telegram</strong> <em>Join the fun in our Hegequarters</em></span></a></li>
-<li><a href="/league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="A globe" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
+<li><a href="/hegepedia//league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="A globe" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
 <li><a href="https://dexscreener.com/solana/cjcu7cirhbhu4bdnplgaum1a6isp9ruhjmg36rjjrxnd" target="_blank" class="ext"><img src="/r/610068670.svg" width="300" height="272" alt="A bar chart icon" fetchpriority="low" loading="lazy"> <span><strong>Price Chart</strong> <em>Track the $HEGE price by the second</em></span></a></li>
 <li><a href="/#faq" onclick="document.getElementById('nav-more').classList.remove('open')"><img src="/r/333550920.svg" width="30" height="30" alt="?" fetchpriority="low" loading="lazy"> <span><strong>FAQs</strong> <em>Answers to frequently asked questions</em></span></a></li>
 <li><a href="https://www.reddit.com/r/HegeCoin/" target="_blank" class="ext"><img src="/r/1609170980.svg" width="30" height="30" alt="Reddit logo" fetchpriority="low" loading="lazy"> <span><strong>Reddit</strong> <em>Join over 1,200 Hegends on Reddit!</em></span></a></li>
@@ -74,7 +74,7 @@
 <p>Back in October last year, we released the first version of HEGE BuyBot, our own Telegram buy bot.</p>
 <p>At the time, the community had grown tired of the third-party bots that never seemed to work quite right, and wouldn’t let us design our own buy messages the way we wanted. So enough was enough, and Day dusted off his Python-fu and designed a fully custom bot, built from the ground up exactly for our needs. Thus, HEGE BuyBot was born.</p>
 <p>That first version used Solscan for fetching buy data. It worked alright, but API access was wildly expensive. So in the spirit of spring cleaning and bear-market cost-cutting, it was time for an upgrade.</p>
-<figure class="image"><a href="/r/588634897.avif" class="pop"><span class="icon-overlay"><img src="/r/588634897.avif" width="1200" height="1200" alt="" loading="lazy"> <span class="image-icon"></span></span></a>
+<figure class="image"><a href="/blog/hege-buybot-reporting-for-duty/hege-bot_hu_3e733afdc0947deb.fc2881de230e542427341ad51b77254b65a8d80592940acec3db5f4a373a5cb6.avif" class="pop"><span class="icon-overlay"><img src="/blog/hege-buybot-reporting-for-duty/hege-bot_hu_3e733afdc0947deb.fc2881de230e542427341ad51b77254b65a8d80592940acec3db5f4a373a5cb6.avif" width="1200" height="1200" alt="" loading="lazy"> <span class="image-icon"></span></span></a>
 <figcaption>HEGE BuyBot, at your service (again)</figcaption>
 </figure>
 <h2 id="what-is-a-telegram-buy-bot-anyway">What is A Telegram Buy Bot Anyway?</h2>
@@ -96,7 +96,7 @@
 <p>Initially we used Solscan as a source for buy data, but we have now switched to Helius Webhooks. Helius has a generous free tier, and their webhook service was easy to hook up to our bot.</p>
 <p>The beauty of the design is that the message selection is fully programmable. We can now use whatever emojis we want, set up completely custom messages for different dollar value ranges, and even add special “easter eggs” messages for specific buy values (like the one below).</p>
 <p>This might not seem like a big deal. But seeing these custom messages instead of the generic ones used everywhere else, it does make the chat feel special.</p>
-<figure class="image"><a href="/r/1407877599.avif" class="pop"><span class="icon-overlay"><img src="/r/1407877599.avif" width="1032" height="1416" alt="" loading="lazy"> <span class="image-icon"></span></span></a>
+<figure class="image"><a href="/blog/hege-buybot-reporting-for-duty/1337_hu_70d0e3fe4c08dd3e.7fad10878e93a285c8a4714da6f380e574b60ba3763d5615a549e8c529b3266f.avif" class="pop"><span class="icon-overlay"><img src="/blog/hege-buybot-reporting-for-duty/1337_hu_70d0e3fe4c08dd3e.7fad10878e93a285c8a4714da6f380e574b60ba3763d5615a549e8c529b3266f.avif" width="1032" height="1416" alt="" loading="lazy"> <span class="image-icon"></span></span></a>
 <figcaption>Elite entry. Bears will Crash & Burn.</figcaption>
 </figure>
 <h2 id="where-do-we-take-it-next">Where Do We Take It Next?</h2>
@@ -107,7 +107,7 @@
 <p>Until next time, have a great weekend, and make sure to jump into our Telegram and say hi to all the Hegends in there. Good vibes guaranteed!</p>
 <p><em>— Team Hege</em></p>
 <p>PS. Check out the piece “ZOMBIE ATTACK!” below. This collectible is <a href="https://drip.haus/hegecoin/collectible/hegecoin-drip-zombie-attack-2829bc86">up for sale on our DRiP!</a></p>
-<figure class="image"><a href="/r/3649364869.avif" class="pop"><span class="icon-overlay"><img src="/r/3649364869.avif" width="2000" height="2000" alt="Hege fighting a green zombie." loading="lazy"> <span class="image-icon"></span></span></a>
+<figure class="image"><a href="/blog/hege-buybot-reporting-for-duty/zombie_hu_224b226d047a5a31.71ad9965b50fdfa43f9461b27802013427e1f3b4913ee48e218657198a435fca.avif" class="pop"><span class="icon-overlay"><img src="/blog/hege-buybot-reporting-for-duty/zombie_hu_224b226d047a5a31.71ad9965b50fdfa43f9461b27802013427e1f3b4913ee48e218657198a435fca.avif" width="2000" height="2000" alt="Hege fighting a green zombie." loading="lazy"> <span class="image-icon"></span></span></a>
 <figcaption>Hege fights off a zombie... did he get bitten?!</figcaption>
 </figure>
 </div>
@@ -138,9 +138,9 @@
 <span><strong>Hegends NFTs</strong> <em>Check out our NFT collection!</em></span></a>
 <ul>
 <li><a href="/story/"><img src="/r/3587084489.svg" width="300" height="237" alt="Hege" fetchpriority="low" loading="lazy"> <span><strong>The Hege Story</strong> <em>The Greatest Underhog Story Ever Told</em></span></a></li>
-<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>The ultimate guide to the Hegeverse</em></span></a></li>
+<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>Your ultimate guide to the Hegeverse</em></span></a></li>
 <li><a href="/blog/"><img src="/r/2385211595.svg" width="375" height="456" alt="Newspaper article icon" fetchpriority="low" loading="lazy"> <span><strong>Blog</strong> <em>Read the latest about $HEGE</em></span></a></li>
-<li><a href="/league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="Globe icon" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
+<li><a href="/hegepedia/league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="Globe icon" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
 <li><a href="/#faq" onclick="document.getElementById('nav-c').close()"><img src="/r/333550920.svg" width="30" height="30" alt="?" fetchpriority="low" loading="lazy"> <span><strong>FAQs</strong> <em>Answers to common questions</em></span></a></li>
 <li><a href="https://dexscreener.com/solana/cjcu7cirhbhu4bdnplgaum1a6isp9ruhjmg36rjjrxnd" target="_blank" class="ext"><img src="/r/610068670.svg" width="300" height="272" alt="Bar chart icon" fetchpriority="low" loading="lazy"> <span><strong>Price Chart</strong> <em>Track the $HEGE price by the second</em></span></a></li>
 <li><a href="https://drip.haus/hegecoin" target="_blank" class="ext"><img src="/r/407803855.svg" width="30" height="30" alt="Drop" fetchpriority="low" loading="lazy"> <span><strong>DRiP</strong> <em>Check out $HEGE on art platform DRiP</em></span></a></li>

@@ -11,7 +11,7 @@
 <link rel="preload" href="/r/3997950749.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="preload" href="/r/636367663.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="stylesheet" href="/r/1624537194.min.css">
-<link rel="stylesheet" href="/r/3231558896.min.css">
+<link rel="stylesheet" href="/r/755559086.min.css">
 <meta name="author" content="HEGE">
 <meta name="description" content="It’s time to tackle the last piece in our performance puzzle. Join us as we take a close look at how to optimize CSS like nobody’s business.">
 <meta property="og:type" content="website">
@@ -22,7 +22,7 @@
 <link rel="sitemap" type="application/xml" href="https://hegecoin.com/sitemap.xml">
 <link rel="icon" type="image/png" sizes="32x32" href="/r/2297846202.png">
 <link rel="apple-touch-icon" href="/r/3923634518.png">
-<script type="text/javascript" src="/r/545971730.min.js" async fetchpriority="low"></script>
+<script type="text/javascript" src="/r/2234077113.min.js" async fetchpriority="low"></script>
 </head>
 <body id="b" class="">
 <header id="h">
@@ -39,9 +39,9 @@
 <li class="hegends-item"><a href="/nfts/" title="Visit Hege's official NFT collection">
 <div class="h-a" data-frames="/r/3446319882.avif;/r/168622860.avif;/r/785041076.avif;/r/1978746780.avif;/r/3685339383.avif"><img class="show" src="/r/1959589881.avif" width="750" height="750" loading="lazy" alt="Hegend 1"></div>
 <span><strong>Hegends NFTs</strong> <em>Learn more about our NFT collection!</em></span></a></li>
-<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>The ultimate guide to the Hegeverse</em></span></a></li>
+<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>Your ultimate guide to the Hegeverse</em></span></a></li>
 <li><a href="https://t.me/Hegequarters" target="_blank" class="ext"><img src="/r/2111933442.svg" width="512" height="431" alt="Telegram logo" fetchpriority="low" loading="lazy"> <span><strong>Telegram</strong> <em>Join the fun in our Hegequarters</em></span></a></li>
-<li><a href="/league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="A globe" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
+<li><a href="/hegepedia//league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="A globe" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
 <li><a href="https://dexscreener.com/solana/cjcu7cirhbhu4bdnplgaum1a6isp9ruhjmg36rjjrxnd" target="_blank" class="ext"><img src="/r/610068670.svg" width="300" height="272" alt="A bar chart icon" fetchpriority="low" loading="lazy"> <span><strong>Price Chart</strong> <em>Track the $HEGE price by the second</em></span></a></li>
 <li><a href="/#faq" onclick="document.getElementById('nav-more').classList.remove('open')"><img src="/r/333550920.svg" width="30" height="30" alt="?" fetchpriority="low" loading="lazy"> <span><strong>FAQs</strong> <em>Answers to frequently asked questions</em></span></a></li>
 <li><a href="https://www.reddit.com/r/HegeCoin/" target="_blank" class="ext"><img src="/r/1609170980.svg" width="30" height="30" alt="Reddit logo" fetchpriority="low" loading="lazy"> <span><strong>Reddit</strong> <em>Join over 1,200 Hegends on Reddit!</em></span></a></li>
@@ -84,7 +84,7 @@
 <li><strong><a href="/blog/how-to-build-a-ridiculously-fast-website-pt-6/">Part 6: Final Results</a></strong></li>
 </ul>
 <p>Without further ado, let’s CSS!</p>
-<figure class="image"><a href="/r/3090793683.avif" class="pop"><span class="icon-overlay"><img src="/r/3090793683.avif" width="1280" height="1280" alt="Hege, dressed in a blue jacket with a matching headband, is enjoying a bowl of noodles." loading="lazy"> <span class="image-icon"></span></span></a></figure>
+<figure class="image"><a href="/blog/how-to-build-a-ridiculously-fast-website-pt-5/noodles_hu_60755ba06a2f1627.65c621c814c79cc31397ff95cef28cbdfe09d37b37ab5c4ebcd6ccc180f5b587.avif" class="pop"><span class="icon-overlay"><img src="/blog/how-to-build-a-ridiculously-fast-website-pt-5/noodles_hu_60755ba06a2f1627.65c621c814c79cc31397ff95cef28cbdfe09d37b37ab5c4ebcd6ccc180f5b587.avif" width="1280" height="1280" alt="Hege, dressed in a blue jacket with a matching headband, is enjoying a bowl of noodles." loading="lazy"> <span class="image-icon"></span></span></a></figure>
 <h2 id="do-you-need-to-optimize-css-yes">Do You Need to Optimize CSS? Yes.</h2>
 <p>In short, yes, you do need to pay attention to CSS. Bad CSS will make your page load slower, and it will make it more sluggish too. So optimizing CSS has a real impact on user experience.</p>
 <h3 id="less-css-means-your-page-will-render-faster">Less CSS Means Your Page Will Render Faster</h3>
@@ -161,7 +161,7 @@
 <h3 id="example-carousels-with-scroll-snapping">Example: Carousels With Scroll Snapping</h3>
 <p>On our front page, we have a memes section, where we show a series of our artworks in a carousel. On the phone, users can swipe left and right to scroll through the images in a natural way. On desktop, there are two buttons to move left and right.</p>
 <p>Here’s how it looks:</p>
-<figure class="image"><a href="/r/404940976.avif" class="pop"><span class="icon-overlay"><img src="/r/404940976.avif" width="1394" height="786" alt="Screenshot from hegecoin.com, showing 1) Hege escaping a crocodile riding an ostrich, and 2) Hege frightened by fireworks at a Chinese festival." loading="lazy"> <span class="image-icon"></span></span></a></figure>
+<figure class="image"><a href="/blog/how-to-build-a-ridiculously-fast-website-pt-5/swipelist_hu_33e1b4a80f3626a1.699fbddfbcb6fbf95f9fe86910cc108ca854f8f93ed670b954f908cfef082f0d.avif" class="pop"><span class="icon-overlay"><img src="/blog/how-to-build-a-ridiculously-fast-website-pt-5/swipelist_hu_33e1b4a80f3626a1.699fbddfbcb6fbf95f9fe86910cc108ca854f8f93ed670b954f908cfef082f0d.avif" width="1394" height="786" alt="Screenshot from hegecoin.com, showing 1) Hege escaping a crocodile riding an ostrich, and 2) Hege frightened by fireworks at a Chinese festival." loading="lazy"> <span class="image-icon"></span></span></a></figure>
 <p>The HTML structure for this carousel looks something like this (simplified):</p>
 <div class="highlight">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">ul</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">"memes-w"</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">"swipelist"</span>&gt;
@@ -286,7 +286,7 @@
 <p>Yours truly,<br>
 <em>— Team Hege</em> ✌️</p>
 <p>PS. Check out the piece “ROSE PULSE” below. This RARE collectible is <a href="https://drip.haus/hegecoin/collectible/hegecoin-drip-rose-pulse-c53a35b3">up for sale on our DRiP!</a></p>
-<figure class="image"><a href="/r/3954387885.avif" class="pop"><span class="icon-overlay"><img src="/r/3954387885.avif" width="2038" height="2000" alt="A pink energy arises from Hege’s heart, surging through his veins and radiating purity to all those around him." loading="lazy"> <span class="image-icon"></span></span></a>
+<figure class="image"><a href="/blog/how-to-build-a-ridiculously-fast-website-pt-5/rose-pulse_hu_35a407d7c08b0d48.5d721dbab93c7caf7751f38bec1d1808abb5c03b7c72b098c1ac069b5bea12b9.avif" class="pop"><span class="icon-overlay"><img src="/blog/how-to-build-a-ridiculously-fast-website-pt-5/rose-pulse_hu_35a407d7c08b0d48.5d721dbab93c7caf7751f38bec1d1808abb5c03b7c72b098c1ac069b5bea12b9.avif" width="2038" height="2000" alt="A pink energy arises from Hege’s heart, surging through his veins and radiating purity to all those around him." loading="lazy"> <span class="image-icon"></span></span></a>
 <figcaption>A pink energy arises from Hege’s heart, surging through his veins and radiating purity to all those around him.</figcaption>
 </figure>
 <style>
@@ -334,9 +334,9 @@
 <span><strong>Hegends NFTs</strong> <em>Check out our NFT collection!</em></span></a>
 <ul>
 <li><a href="/story/"><img src="/r/3587084489.svg" width="300" height="237" alt="Hege" fetchpriority="low" loading="lazy"> <span><strong>The Hege Story</strong> <em>The Greatest Underhog Story Ever Told</em></span></a></li>
-<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>The ultimate guide to the Hegeverse</em></span></a></li>
+<li><a href="/hegepedia/"><img src="/r/4054869380.svg" width="300" height="226" alt="Photograph icon" fetchpriority="low" loading="lazy"> <span><strong>Hegepedia (beta)</strong> <em>Your ultimate guide to the Hegeverse</em></span></a></li>
 <li><a href="/blog/"><img src="/r/2385211595.svg" width="375" height="456" alt="Newspaper article icon" fetchpriority="low" loading="lazy"> <span><strong>Blog</strong> <em>Read the latest about $HEGE</em></span></a></li>
-<li><a href="/league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="Globe icon" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
+<li><a href="/hegepedia/league-of-hegends/"><img src="/r/3745193089.svg" width="30" height="30" alt="Globe icon" fetchpriority="low" loading="lazy"> <span><strong>League of Hegends</strong> <em>Meet our most valued community members</em></span></a></li>
 <li><a href="/#faq" onclick="document.getElementById('nav-c').close()"><img src="/r/333550920.svg" width="30" height="30" alt="?" fetchpriority="low" loading="lazy"> <span><strong>FAQs</strong> <em>Answers to common questions</em></span></a></li>
 <li><a href="https://dexscreener.com/solana/cjcu7cirhbhu4bdnplgaum1a6isp9ruhjmg36rjjrxnd" target="_blank" class="ext"><img src="/r/610068670.svg" width="300" height="272" alt="Bar chart icon" fetchpriority="low" loading="lazy"> <span><strong>Price Chart</strong> <em>Track the $HEGE price by the second</em></span></a></li>
 <li><a href="https://drip.haus/hegecoin" target="_blank" class="ext"><img src="/r/407803855.svg" width="30" height="30" alt="Drop" fetchpriority="low" loading="lazy"> <span><strong>DRiP</strong> <em>Check out $HEGE on art platform DRiP</em></span></a></li>
